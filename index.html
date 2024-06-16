@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @media screen and (min-width: 320) {
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background-color: hsl(0, 0%, 4%);
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 200;
+      }
+      .container {
+        font-size: 14px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        width: 320px;
+        height: 600px;
+        background-color: hsl(0, 0%, 7%);
+        border-radius: 10px;
+        margin: 80px auto;
+      }
+      .bcontainer {
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .button {
+        padding-top: 10px;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+        color: hsl(0, 0%, 100%);
+        display: block;
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: hsl(0, 0%, 12%);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 7%);
+        transition-duration: 1s;
+      }
+      #te {
+        color: hsl(75, 94%, 57%);
+        font-weight: 500;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="assets/images/avatar-jessica.jpeg"
+        alt="this is an image"
+        style="border-radius: 100%; width: 90px; margin-top: 35px"
+      />
+      <p style="font-size: 22px; font-weight: 500; margin: 15px 0 0 0">
+        Jessica Randall
+      </p>
+      <span id="te">London, United Kingdom </span><br />
+      <br />
+      <p style="font-size: 12px; font-weight: 200; margin: 0 0">
+        Front-end developer and avid reader."
+      </p>
+      <br /><br />
+      <div class="bcontainer">
+        <a href="#" class="button">GitHub</a>
+        <a href="#" class="button">Frontend Mentor</a>
+        <a href="#" class="button">LinkedIn</a>
+        <a href="#" class="button">Twitter</a>
+        <a href="#" class="button">Instagram</a>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
